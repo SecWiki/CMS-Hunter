@@ -12,6 +12,9 @@ Content Management System Vulnerability Hunter
 - [PHPCMS_v9.6.0_SQL注入](PHPCMS/PHPCMS_v9.6.0_SQL注入)
 - [PHPCMS_v9.6.0_任意文件上传](PHPCMS/PHPCMS_v9.6.0_任意文件上传)
 
+##### Joomla!
+- [Joomla_3.7.0_SQL注入](Joomla/Joomla_3.7.0_SQL注入)
+
 
 ### 项目维护
 

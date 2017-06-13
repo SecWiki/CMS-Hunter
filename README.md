@@ -9,13 +9,13 @@ Content Management System Vulnerability Hunter
 ### CMS 漏洞列表
 
 ##### PHPCMS
-- [PHPCMS_v9.6.0_SQL注入](PHPCMS_v9.6.0_SQL注入)
+- [PHPCMS_v9.6.0_SQL注入](PHPCMS/PHPCMS_v9.6.0_SQL注入)
 
 
 ### 项目维护
 
 + **ourren**(sina weibo <a href="http://weibo.com/codesec">@ourren</a>)
-+ **Anka9080**(sina weibo <a href="http://weibo.com/anka9080">@hx</a>)
++ **Anka9080**(sina weibo <a href="http://weibo.com/anka9080">@Anka9080</a>)
 
 ### 免责说明
 

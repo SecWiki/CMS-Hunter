@@ -10,6 +10,7 @@ Content Management System Vulnerability Hunter
 
 ##### PHPCMS
 - [PHPCMS_v9.6.0_SQL注入](PHPCMS/PHPCMS_v9.6.0_SQL注入)
+- [PHPCMS_v9.6.0_任意文件上传](PHPCMS/PHPCMS_v9.6.0_任意文件上传)
 
 
 ### 项目维护

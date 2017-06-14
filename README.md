@@ -8,6 +8,9 @@ Content Management System Vulnerability Hunter
 
 ### CMS 漏洞列表
 
+##### WordPress
+- [WordPress_4.4_SSRF](WordPress/WordPress_4.4_SSRF)
+
 ##### PHPCMS
 - [PHPCMS_v9.6.0_SQL注入](PHPCMS/PHPCMS_v9.6.0_SQL注入)
 - [PHPCMS_v9.6.0_任意文件上传](PHPCMS/PHPCMS_v9.6.0_任意文件上传)

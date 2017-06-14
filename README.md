@@ -10,6 +10,7 @@ Content Management System Vulnerability Hunter
 
 ##### WordPress
 - [WordPress_4.4_SSRF](WordPress/WordPress_4.4_SSRF)
+- [WordPress_4.7_Info_Disclosure](WordPress/WordPress_4.7_Info_Disclosure)
 
 ##### PHPCMS
 - [PHPCMS_v9.6.0_SQL注入](PHPCMS/PHPCMS_v9.6.0_SQL注入)

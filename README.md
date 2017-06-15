@@ -4,6 +4,8 @@
 
 Content Management System Vulnerability Hunter
 
+>借用 M 牛的一句话，喜欢请点 Star，如果不打算贡献，千万别 Fork
+
 ***
 
 ### CMS 漏洞列表

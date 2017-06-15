@@ -33,7 +33,7 @@ Content Management System Vulnerability Hunter
 请勿用于非法的用途，否则造成的严重后果与本项目无关。
 
 ### 参考链接
-
+- [CxSecurity](https://cxsecurity.com)
 - [Seebug](https://www.seebug.org/)
 
 ### 转载

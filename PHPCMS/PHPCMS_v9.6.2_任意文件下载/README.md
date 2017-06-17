@@ -2,8 +2,8 @@
 
 ## Affected Version
 
-PHPCMS v9.6.1
-PHPCMS v9.6.2
+- PHPCMS v9.6.1
+- PHPCMS v9.6.2
 
 ## PoC
 

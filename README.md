@@ -22,7 +22,7 @@ Content Management System Vulnerability Hunter
 - [PHPCMS_v9.6.2_任意文件下载](PHPCMS/PHPCMS_v9.6.2_任意文件下载)
 
 ##### Joomla!
-- [Joomla_3.7.0_SQL注入](Joomla/Joomla_3.7.0_SQL注入)
+- [Joomla_3.7.0_SQL注入(CVE-2017-8917)](Joomla/Joomla_3.7.0_SQL注入(CVE-2017-8917))
 - [Joomla_3.4.4-3.6.3_未授权创建特权用户(CVE-2016-8869)](Joomla/Joomla_3.4.4-3.6.3_未授权创建特权用户(CVE-2016-8869))
 
 

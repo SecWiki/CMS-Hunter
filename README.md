@@ -25,6 +25,8 @@ Content Management System Vulnerability Hunter
 - [Joomla_3.7.0_SQL注入(CVE-2017-8917)](Joomla/Joomla_3.7.0_SQL注入(CVE-2017-8917))
 - [Joomla_3.4.4-3.6.3_未授权创建特权用户(CVE-2016-8869)](Joomla/Joomla_3.4.4-3.6.3_未授权创建特权用户(CVE-2016-8869))
 
+##### FineCMS
+- [FineCMS最新版5.0.8两处getshell](https://github.com/sie504/CMS-Hunter/tree/master/FineCMS)
 
 ### 项目维护
 

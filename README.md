@@ -26,7 +26,7 @@ Content Management System Vulnerability Hunter
 - [Joomla_3.4.4-3.6.3_未授权创建特权用户(CVE-2016-8869)](Joomla/Joomla_3.4.4-3.6.3_未授权创建特权用户(CVE-2016-8869))
 
 ##### FineCMS
-- [FineCMS最新版5.0.8两处getshell](https://github.com/sie504/CMS-Hunter/tree/master/FineCMS)
+- [FineCMS最新版5.0.8两处getshell](https://github.com/SecWiki/CMS-Hunter/tree/master/FineCMS/FineCMS%E6%9C%80%E6%96%B0%E7%89%885.0.8%E4%B8%A4%E5%A4%84getshell)
 
 ### 项目维护
 

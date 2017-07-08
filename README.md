@@ -10,6 +10,10 @@ Content Management System Vulnerability Hunter
 
 ### CMS 漏洞列表
 
+#### Struts
+
+- [S2-048(CVE-CVE-2017-9791)](Struts/S2-048(CVE-CVE-2017-9791))
+
 ##### WordPress
 - [WordPress_4.4_SSRF](WordPress/WordPress_4.4_SSRF)
 - [WordPress_4.7_Info_Disclosure](WordPress/WordPress_4.7_Info_Disclosure)

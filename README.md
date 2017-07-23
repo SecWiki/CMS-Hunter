@@ -15,6 +15,10 @@ Content Management System Vulnerability Hunter
 - [DedeCMS_v5.7_shops_delivery_存储型XSS](DedeCMS/DedeCMS_v5.7_shops_delivery_存储型XSS)
 - [DedeCMS_v5.7_carbuyaction_存储型XSS](DedeCMS_v5.7_carbuyaction_存储型XSS)
 
+#### Drupal
+
+- [Drupal远程代码执行漏洞(CVE-2017-6920)](Drupal/Drupal远程代码执行漏洞(CVE-2017-6920))
+
 #### Struts
 
 - [S2-048(CVE-CVE-2017-9791)](Struts/S2-048(CVE-CVE-2017-9791))

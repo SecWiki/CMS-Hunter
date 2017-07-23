@@ -4,7 +4,7 @@
 
 Content Management System Vulnerability Hunter
 
->借用 M 牛的一句话，喜欢请点 Star，如果不打算贡献，千万别 Fork
+> 说明：目前来看，本项目会进行长期维护，有修改的建议或者想法欢迎联系作者。
 
 ***
 
@@ -13,6 +13,7 @@ Content Management System Vulnerability Hunter
 #### DedeCMS
 
 - [DedeCMS_v5.7_shops_delivery_存储型XSS](DedeCMS/DedeCMS_v5.7_shops_delivery_存储型XSS)
+- [DedeCMS_v5.7_carbuyaction_存储型XSS](DedeCMS_v5.7_carbuyaction_存储型XSS)
 
 #### Struts
 

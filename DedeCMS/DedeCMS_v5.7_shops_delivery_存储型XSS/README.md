@@ -11,32 +11,26 @@ DedeCMS-V5.7-UTF8-SP2  （ 发布日期  2017-03-15 ）
 
 ## PoC
 
-该漏洞 通过用户在编写订单收货地址的相关参数 注入 XSS Payload，导致 前台查看订单的页面和后台管理员查看订单详情的页面都会被 XSS。 
+该漏洞比较鸡肋，需要登录 管理员后台通过 添加配送方式 功能 ，添加后在前后台都会触发 存储型 XSS
 
-所以说，可以用来打管理员 Cookie 。
+之所以会触发是因为在系统对 管理员输入的 配送方式-描述字段（des）在入库前只进行 addslashes 转义特殊字符处理，其实这没毛病
+
+重要的是取出数据库的数据输出到页面前没进行 HTML 实体编码处理直接输出导致最终的 XSS
 
 测试：
 
-1. 首先管理员添加一项商城的商品
+1. 后台添加 配送方式
 
-![](add_good.png)
+![](add_delivery.png)
 
-2. 前台用户选定商品添加购物车
+2. 添加成功后直接展示配送方式列表，触发 XSS
 
 ![](show_delivery.png)
 
-3. 前台用户编辑订单的收货地址，在这里 `address,des,email,postname` 都是存在 XSS 的，插入 XSS Payload ，
+3. 此外，这个 XSS 在前台用户购买东西选择配送方式的时候也会触发
 
-![](edit_address.png)
-
-4. 查看订单详情发现前台已经被 XSS 
-
-![](xssed)
-
-5. 管理员进入后台查看商城订单同样也会被 XSS :P
-
-![](back_xssed.png)
+![](front_xssed.png)
 
 ## References
 
-1. https://www.seebug.org/vuldb/ssvid-92855
+1. https://www.seebug.org/vuldb/ssvid-92863

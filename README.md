@@ -10,26 +10,30 @@ Content Management System Vulnerability Hunter
 
 ### CMS 漏洞列表
 
+#### DedeCMS
+
+- [DedeCMS_v5.7_shops_delivery_存储型XSS](DedeCMS/DedeCMS_v5.7_shops_delivery_存储型XSS)
+
 #### Struts
 
 - [S2-048(CVE-CVE-2017-9791)](Struts/S2-048(CVE-CVE-2017-9791))
 
-##### WordPress
+#### WordPress
 - [WordPress_4.4_SSRF](WordPress/WordPress_4.4_SSRF)
 - [WordPress_4.7_Info_Disclosure](WordPress/WordPress_4.7_Info_Disclosure)
 - [WordPress_4.7.0-4.7.1_未授权内容注入](WordPress/WordPress_4.7.0-4.7.1_未授权内容注入)
 
-##### PHPCMS
+#### PHPCMS
 - [PHPCMS_v9.6.0_SQL注入](PHPCMS/PHPCMS_v9.6.0_SQL注入)
 - [PHPCMS_v9.6.0_任意文件上传](PHPCMS/PHPCMS_v9.6.0_任意文件上传)
 - [PHPCMS_v9.6.1_任意文件下载](PHPCMS/PHPCMS_v9.6.1_任意文件下载)
 - [PHPCMS_v9.6.2_任意文件下载](PHPCMS/PHPCMS_v9.6.2_任意文件下载)
 
-##### Joomla!
+#### Joomla!
 - [Joomla_3.7.0_SQL注入(CVE-2017-8917)](Joomla/Joomla_3.7.0_SQL注入(CVE-2017-8917))
 - [Joomla_3.4.4-3.6.3_未授权创建特权用户(CVE-2016-8869)](Joomla/Joomla_3.4.4-3.6.3_未授权创建特权用户(CVE-2016-8869))
 
-##### FineCMS
+#### FineCMS
 - [FineCMS最新版5.0.8两处getshell](https://github.com/SecWiki/CMS-Hunter/tree/master/FineCMS/FineCMS%E6%9C%80%E6%96%B0%E7%89%885.0.8%E4%B8%A4%E5%A4%84getshell)
 
 ### 项目维护

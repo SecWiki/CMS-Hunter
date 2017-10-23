@@ -16,7 +16,7 @@ Discuz < 3.4 版本
 
 1. 为了不破坏原有程序，在根目录下新建 1.txt 作为演示。
 
-![1](1.png)
+![1](1.PNG)
 
 2. 登陆前台，访问 http://localhost/Discuz/Discuz_X3.2_TC_BIG5/home.php?mod=spacecp&ac=profile&op=base
 
@@ -27,7 +27,7 @@ Discuz < 3.4 版本
 
 成功后，个人信息已经被修改成如下:
 
-![changed](changed.png)
+![changed](changed.PNG)
 
 3. 最后，本地提交POST表单删除文件 1.txt
 

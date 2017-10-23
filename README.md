@@ -10,6 +10,10 @@ Content Management System Vulnerability Hunter
 
 ### CMS 漏洞列表
 
+#### Discuz
+
+- [Discuz_＜3.4_birthprovince_前台任意文件删除](Discuz/Discuz_＜3.4_birthprovince_前台任意文件删除)
+
 #### DedeCMS
 
 - [DedeCMS_v5.7_shops_delivery_存储型XSS](DedeCMS/DedeCMS_v5.7_shops_delivery_存储型XSS)

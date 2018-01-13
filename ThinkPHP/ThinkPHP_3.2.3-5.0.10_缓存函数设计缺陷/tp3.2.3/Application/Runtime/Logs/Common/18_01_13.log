@@ -1,0 +1,30 @@
+[ 2018-01-13T20:22:15+08:00 ] ::1 /tp3.2.3/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Tp3.2.3
+
+[ 2018-01-13T20:22:20+08:00 ] ::1 /tp3.2.3/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Tp3.2.3
+
+[ 2018-01-13T20:22:37+08:00 ] ::1 /tp3.2.3/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Tp3.2.3
+
+[ 2018-01-13T20:23:58+08:00 ] ::1 /tp3.2.3/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Tp3.2.3
+
+[ 2018-01-13T20:28:50+08:00 ] ::1 /tp3.2.3/Runtime/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Tp3.2.3
+

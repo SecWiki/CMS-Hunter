@@ -10,9 +10,9 @@ Content Management System Vulnerability Hunter
 
 ### CMS 漏洞列表
 
-#### ThinkPHO
+#### ThinkPHP
 
-- [ThinkPHP_3.2.3-5.0.10_缓存函数设计缺陷](ThinkPHP_3.2.3-5.0.10_缓存函数设计缺陷)
+- [ThinkPHP_3.2.3-5.0.10_缓存函数设计缺陷](ThinkPHP/ThinkPHP_3.2.3-5.0.10_缓存函数设计缺陷)
 
 #### Discuz
 

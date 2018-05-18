@@ -21,6 +21,7 @@ Content Management System Vulnerability Hunter
 - [DedeCMS_v5.7_shops_delivery_存储型XSS](DedeCMS/DedeCMS_v5.7_shops_delivery_存储型XSS)
 - [DedeCMS_v5.7_carbuyaction_存储型XSS](DedeCMS/DedeCMS_v5.7_carbuyaction_存储型XSS)
 - [DedeCMS_v5.7_友情链接CSRF_GetShell](DedeCMS/DedeCMS_v5.7_友情链接CSRF_GetShell)
+- [DedeCMS V5.7 SP2后台存在代码执行漏洞](/DedeCMS/DedeCMS%20V5.7%20SP2后台存在代码执行漏洞)
 
 #### Drupal
 

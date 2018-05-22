@@ -61,7 +61,9 @@ Content Management System Vulnerability Hunter
 - [PHPCMS_v9.6.1_任意文件下载](PHPCMS/PHPCMS_v9.6.1_任意文件下载)
 - [PHPCMS_v9.6.2_任意文件下载](PHPCMS/PHPCMS_v9.6.2_任意文件下载)
 
+#### WebLogic
 
+- [CVE-2017-3506 & CVE-2017-10271 RCE](WebLogic/CVE-2017-3506 %26 CVE-2017-10271)
 
 
 

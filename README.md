@@ -63,7 +63,7 @@ Content Management System Vulnerability Hunter
 
 #### WebLogic
 
-- [CVE-2017-3506 & CVE-2017-10271 RCE](WebLogic/CVE-2017-3506&nbsp;&&nbsp;CVE-2017-10271)
+- [CVE-2017-3506 & CVE-2017-10271 RCE](WebLogic/CVE-2017-3506 & CVE-2017-10271)
 
 
 

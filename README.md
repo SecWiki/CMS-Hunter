@@ -72,6 +72,7 @@ Content Management System Vulnerability Hunter
 + **ourren**(sina weibo <a href="http://weibo.com/codesec">@ourren</a>)
 + **Anka9080**(sina weibo <a href="http://weibo.com/anka9080">@Anka9080</a>)
 +  **sie504** 
++  **Bearcat**
 
 ### 免责说明
 

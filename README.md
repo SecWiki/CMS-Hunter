@@ -64,7 +64,7 @@ Content Management System Vulnerability Hunter
 #### WebLogic
 
 - [CVE-2017-3506 & CVE-2017-10271 RCE](https://github.com/SecWiki/CMS-Hunter/tree/master/WebLogic/CVE-2017-3506%20%26%20CVE-2017-10271)
-
+-[CVE-2018-2628](https://github.com/SecWiki/CMS-Hunter/tree/master/WebLogic/CVE-2018-2628)
 
 
 ### 项目维护

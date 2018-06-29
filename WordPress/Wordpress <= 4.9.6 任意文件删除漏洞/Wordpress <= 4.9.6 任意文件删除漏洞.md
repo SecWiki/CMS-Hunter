@@ -1,4 +1,4 @@
-[ WARNING: WordPress File Delete to Code Execution](https://blog.ripstech.com/2018/wordpress-file-delete-to-code-execution/)
+[https://github.com/SecWiki/CMS-Hunter WARNING: WordPress File Delete to Code Execution](https://blog.ripstech.com/2018/wordpress-file-delete-to-code-execution/)
 
 ## 背景介绍
 
@@ -126,7 +126,9 @@ MacBook-Pro:pen_doc lebor$ curl -v 'http://192.168.2.153/wordpress496/wp-admin/p
 ## 参考
 
 1.[https://w3techs.com/technologies/details/cm-wordpress/all/all](https://w3techs.com/technologies/details/cm-wordpress/all/all)
+
 2.[https://codex.wordpress.org/Custom_Fields](https://codex.wordpress.org/Custom_Fields)
+
 3.[ Wordpress <= 4.9.6 任意文件删除漏洞](http://blog.vulnspy.com/2018/06/27/Wordpress-4-9-6-Arbitrary-File-Delection-Vulnerbility/)
 
 

@@ -52,8 +52,14 @@ Content Management System Vulnerability Hunter
 
 #### WordPress
 - [WordPress_4.4_SSRF](WordPress/WordPress_4.4_SSRF)
+
 - [WordPress_4.7_Info_Disclosure](WordPress/WordPress_4.7_Info_Disclosure)
+
 - [WordPress_4.7.0-4.7.1_未授权内容注入](WordPress/WordPress_4.7.0-4.7.1_未授权内容注入)
+
+- [[Wordpress <= 4.9.6 任意文件删除漏洞](https://github.com/SecWiki/CMS-Hunter/blob/master/WordPress/Wordpress%20%3C%3D%204.9.6%20%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%88%A0%E9%99%A4%E6%BC%8F%E6%B4%9E/Wordpress%20%3C%3D%204.9.6%20%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E5%88%A0%E9%99%A4%E6%BC%8F%E6%B4%9E.md)
+
+  
 
 #### PHPCMS
 - [PHPCMS_v9.6.0_SQL注入](PHPCMS/PHPCMS_v9.6.0_SQL注入)

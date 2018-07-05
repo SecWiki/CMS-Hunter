@@ -25,7 +25,7 @@
 
 ## References
 
-[https://bbs.ichunqiu.com/thread-35085-1-1.html]([SeaCMS v6.45前台Getshell 代码执行漏洞分析](https://bbs.ichunqiu.com/thread-35085-1-1.html))
+[https://bbs.ichunqiu.com/thread-35085-1-1.html](https://bbs.ichunqiu.com/thread-35085-1-1.html)
 
 [http://0day5.com/archives/4249/](http://0day5.com/archives/4249/)
 

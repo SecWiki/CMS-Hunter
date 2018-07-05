@@ -1,8 +1,11 @@
 ##  Affected Version
 
- Seacms 6.45
+ 下载地址：
 
-[https://pan.baidu.com/s/1uw_VnxnvG4GGEae4TRsGGw ](cd48)【cd48】
+ 链接：https://pan.baidu.com/s/1uw_VnxnvG4GGEae4TRsGGw 
+
+ 密码：cd48
+
 
 
 

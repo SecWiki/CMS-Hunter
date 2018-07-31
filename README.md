@@ -38,6 +38,20 @@ Content Management System Vulnerability Hunter
 
 - [metinfo多个漏洞](/Metinfo/MetInfo%20V5.1.7)
 
+#### Seacms
+
+- [SeaCMS v6.45前台Getshell 代码执行](https://github.com/SecWiki/CMS-Hunter/tree/master/seacms/SeaCMS%20v6.45%E5%89%8D%E5%8F%B0Getshell%20%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C)
+
+- [seacms6.54代码执行](https://github.com/SecWiki/CMS-Hunter/tree/master/seacms/seacms6.54%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C)
+
+- [seacms 6.55 代码执行](https://github.com/SecWiki/CMS-Hunter/tree/master/seacms/seacms%206.55%20%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C)
+
+- [seacms6.61 XSS](https://github.com/SecWiki/CMS-Hunter/blob/master/seacms/seacms6.61/seacms661.md)
+
+- [Seacms6.61后台getshell](https://github.com/SecWiki/CMS-Hunter/blob/master/seacms/seacms6.61/seacms.md)
+
+  
+
 #### Struts
 
 - [S2-048(CVE-CVE-2017-9791)](Struts/S2-048(CVE-CVE-2017-9791))

